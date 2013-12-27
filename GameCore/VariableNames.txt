@@ -1,0 +1,22 @@
+﻿Player
+	Player.Name
+	Player.Gender
+	Player.Tokens
+	Player.Tokens.PuzzleHint
+	Player.Tokens.CodeHint
+	Player.Tokens.CodePass
+	Player.AssembleLanguage //is either Assembly or Custom
+	Player.ProgramLanguage //holds the program language for the game.
+
+Puzzles
+	Puzzles.Complete //count of completed puzzles
+	Puzzles.Complete.# //exists if the puzzle is completed
+	Puzzles.Available //count of available puzzles
+	Puzzles.Available.# //exists if the puzzle # is available
+	Puzzles.#.* //scope for puzzle # variables (including clue usage)
+
+Story
+	Story.CurrentChapter
+	Story.CurrentChapter.Episode
+	Story.CurrentChapter.PlayedOpening
+
